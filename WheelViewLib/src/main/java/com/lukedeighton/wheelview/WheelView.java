@@ -25,7 +25,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
+
 import android.util.AttributeSet;
 import android.view.InflateException;
 import android.view.MotionEvent;
@@ -759,7 +759,7 @@ public class WheelView extends View {
     }
 
     @Override
-    public boolean onTouchEvent(@NonNull MotionEvent event) {
+    public boolean onTouchEvent(MotionEvent event) {
         final float x = event.getX();
         final float y = event.getY();
 
